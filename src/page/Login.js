@@ -13,7 +13,7 @@ const Login = ({ setAuthenticate, to }) => {
     <Container className="login-area">
       <Form className="login-form" onSubmit={login}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Email address</Form.Label>
+          <Form.Label>Email Address</Form.Label>
           <Form.Control type="email" placeholder="Enter email" />
         </Form.Group>
 
